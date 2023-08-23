@@ -8,3 +8,5 @@
 
 - [favicon.io](https://favicon.io/logo-generator/)
 - [OGP](https://ogp.me/)
+
+![Explicação](./img/CCI_000004.jpg)
