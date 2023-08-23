@@ -7,7 +7,7 @@ const dias_restantes = document.getElementById("dias_restantes");
 const metragem_excedente_resultado = document.getElementById("metragem_excedente_resultado");
 const valor_mensalidade_resultado = document.getElementById("valor_mensalidade_resultado");
 
-inputs.forEach((element) => element.addEventListener("change", () => calc()));
+inputs.forEach((element) => element.addEventListener("input", () => calc()));
 
 function calc() {
     /* calc excedente */

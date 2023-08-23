@@ -5,43 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calc. Excedente</title>
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
 
-    <h1>Excedente</h1>
+    <main id="home">
+        <div class="wrap">
 
-    <div class="input_g">
-        <label for="metragem_excedente">Metragem Excedente :</label>
-        <input type="number" min="0" value="50" name="metragem_excedente" id="metragem_excedente">
-    </div>
+            <h1 class="titulo">Calc. Excedente</h1>
 
-    <div class="input_g">
-        <label for="valor_metro">Valor do metro:</label>
-        <input type="number" min="0" value="0.75" name="valor_metro" id="valor_metro">
-    </div>
+            <h2 class="subtitulo">Excedente:</h2>
 
-    <div id="metragem_excedente_resultado">
-        <!-- via js -->
-    </div>
+            <div id="metragem_excedente_resultado" class="resultado">
+                <!-- via js -->
+            </div>
 
-    <!--  -->
-    <h1>Mensalidade Proporcional</h1>
+            <div class="input_g">
+                <label for="metragem_excedente">Metragem Excedente :</label>
+                <input type="number" min="0" value="50" name="metragem_excedente" id="metragem_excedente">
+            </div>
 
-    <div class="input_g">
-        <label for="valor_mesalidade">Valor da Mensalidade:</label>
-        <input type="number" min="0" value="130" name="valor_mesalidade" id="valor_mesalidade">
-    </div>
+            <div class="input_g">
+                <label for="valor_metro">Valor do metro:</label>
+                <input type="number" min="0" value="0.75" name="valor_metro" id="valor_metro">
+            </div>
 
-    <div class="input_g">
-        <label for="dias_restantes">Dias até o vencimento:</label>
-        <input type="number" min="0" value="19" name="dias_restantes" id="dias_restantes">
-        <span class="descricao">⚠️ Quantidades de dias da data de instalação ate a data do vencimento.</span>
-    </div>
 
-    <div id="valor_mensalidade_resultado">
-        <!-- via js -->
-    </div>
+            <!--  -->
+            <h2 class="subtitulo">Mensalidade Proporcional</h2>
+
+            <div id="valor_mensalidade_resultado" class="resultado">
+                <!-- via js -->
+            </div>
+
+            <div class="input_g">
+                <label for="valor_mesalidade">Valor da Mensalidade:</label>
+                <input type="number" min="0" value="130" name="valor_mesalidade" id="valor_mesalidade">
+            </div>
+
+            <div class="input_g">
+                <label for="dias_restantes">Dias até o vencimento:</label>
+                <input type="number" min="0" value="19" name="dias_restantes" id="dias_restantes">
+                <span class="descricao">❔Quantidades de dias da data de instalação ate a data do vencimento.</span>
+            </div>
+        </div>
+    </main>
 
     <script src="./js/index.js"></script>
 </body>
