@@ -1,6 +1,6 @@
 # Provedor Conect
 
-## [Link da ferrament](https://github.com/saulotarsobc/excedente)
+## [Link da ferramenta](https://github.com/saulotarsobc/excedente)
 
 ## Para calcular o excedente de fibra
 
